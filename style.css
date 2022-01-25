@@ -1,0 +1,158 @@
+.header {
+    display: flex;
+    width: 100vmin;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+ }
+
+ #headerTitle {
+     background: rgb(226, 6, 6);
+     color: rgb(255, 255, 255);
+     width: 100vmin;
+     
+     text-align: center;
+     border-radius: 20px;
+     margin-top: 160px;
+     height:6vmin;
+     padding:2px;
+ }
+ 
+#newBook, #resetBooks {
+    flex-grow: 1;
+    text-align: center;
+    width: 15vmin;
+    height: 5vmin;
+    margin: 1vmin;
+}
+
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    width: 100vmin;
+    margin: auto;
+    margin-top: 10vmin;
+    margin-bottom: 10vmin;
+ }
+  
+  .card {
+    margin: 1.5vmin;
+    text-align: center;
+    height: 30vmin;
+    width: 30vmin;
+    background-color: #f3cffc;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+  .card:hover {
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.8);
+  }
+
+
+#newBook, #resetBooks {
+  background-color: yellow;
+  color: rgb(202, 21, 154);
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  flex-grow: 1;
+  text-align: center;
+  width: 32vmin;
+  height: 15vmin;
+  margin: 5vmin;
+  border-radius: 50px;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+
+.form-popup {
+   display: none;
+   position: fixed;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   border: 3px #47565c;
+   z-index: 9;
+}
+
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+.form-container input[type=text], .form-container input[type=number] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background:#c5a0e4;
+}
+
+
+.form-container input[type=text]:focus, .form-container input[type=number]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.form-container .btn {
+  background-color: #eed42a;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .cancel {
+  background-color: blue;
+}
+
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.removeButton {
+  background-color: rgb(199, 63, 63);
+  color: white;
+  width: 20vmin;
+  height: 10vmin;
+  transition-duration: 0.3s;
+  
+}
+
+
+
+.removeButton:hover {
+  background-color: rgba(141, 233, 55, 0.733);
+  color: rgb(255, 255, 255);
+}
+
+.readStatusBtn {
+  background-color: rgb(128, 128, 128);
+  color: white;
+  width: 20vmin;
+  height: 10vmin;
+  margin-left: 3vmin;
+  margin-top: 2vmin;
+}
+
+.readStatusBtn:hover {
+  background-color: rgba(35, 190, 236, 0.733);
+  color: white;
+}
+body {
+  background-color:#366af7;
+}
